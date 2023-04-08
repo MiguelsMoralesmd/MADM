@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=Mne">
+    <title> Manejo de formularios html5</title>
+</head>
+<body>
+
+    <!--
+        txt es un control de login
+        rd es un control de radio
+         es un control de che
+         box es un control de tipo lista 
+         lb es un control de tipo label
+         img control de imagen
+          es un control de tipo boton o
+
+          los nombre de variables o controles, clases deben tener la notacion pascal
+          under pascal
+
+          redonly
+    -->
+    <h1>formulario de contacto</h1>
+
+    <form action="pagina que procesa los datos">
+        <input id="txt Nombre" type="text" placeholder="Ingresa tu nombre completo" width="80" required> <br>
+
+        <label> <input id="rdh" type="radio" name="sexo">Nombre </label>
+        <label> <input id="rdm" type="radio" name="sexo">Mujer</label>
+        <br>
+        <br>
+
+        <label> <input id="chkISC" type="checkbox" >ISC</label>
+        <label> <input id="chkIGE" type="checkbox" >IGE</label>
+        <label> <input id="chkIDC" type="checkbox" >IDC</label>
+       
+    
+        <br>
+        <input type="cmall" placeholder="Ingresa tu correo institucional" required>
+        <input type="tel" placeholder="Ingresa tu telefono">
+        <input type="number" placeholder="Edad" min="18" max="50">
+        <input type="range" placeholder="Costo" min="1200" max="1600">
+        <input type="datetine-local" placeholder="Fechas">
+        <input type="color" placeholder="Color">
+    
+
+        <button type="submit"> Enviar</button>
+
+       
+
+
+
+    </form>
+</body>
+</html>
